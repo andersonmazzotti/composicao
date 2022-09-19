@@ -18,13 +18,23 @@ public class Composicao {
        
         // primeira forma de chamar
         
-        carro carro = new carro();
+       /* carro carro = new carro();
         
         carro carro2 = new carro(2000); 
         
+        // SEGUNDA FORMA DE CHAMAR
+        carro carro3 = new carro();
+        carro3.ligarCarro(2000);
+        */
+        
+        carro carro4 = new carro(1000);
+        motor motor = new motor();
+        motor motor2 = new motor(2000);
         
         
+       //carro4.setmotor(motor); 
         
+        carro4.imprimeDados();
         
         
         

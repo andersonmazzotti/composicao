@@ -27,7 +27,23 @@ public class carro {
         
     }
     
+    
+    
+    
+    public void ligarCarro(int potencia){
+    
+        motor = new motor(potencia);
+        
+    }
 
+    
+    
+    public void imprimeDados (){
+        System.out.println("Potencia do Motor: "+motor.getPotencia());
+        
+    }
+    
+    
     /**
      * @return the motor
      */
