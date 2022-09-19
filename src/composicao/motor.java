@@ -14,6 +14,18 @@ public class motor {
     
     private int potencia;
 
+    public motor(){
+        potencia =1000; //VALOR PADRAO
+    }
+    
+    public motor (int potencia) {
+    
+        this.potencia=potencia; // valor definido por vc
+        
+    
+    }
+    
+    
     /**
      * @return the potencia
      */

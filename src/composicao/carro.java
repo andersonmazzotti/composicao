@@ -13,6 +13,20 @@ public class carro {
 
     private motor motor;
     private direcao direcao;
+    
+    
+    public carro () {
+    
+        motor = new motor();
+    
+    }
+    
+    public  carro (int potencia) {
+    
+        motor = new motor(potencia);
+        
+    }
+    
 
     /**
      * @return the motor

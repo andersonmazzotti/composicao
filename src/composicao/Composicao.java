@@ -15,8 +15,22 @@ public class Composicao {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        // primeira forma de chamar
+        
+        carro carro = new carro();
+        
+        carro carro2 = new carro(2000); 
+        
+        
+        
+        
+        
+        
+        
+        
     }
+    
     
     
     
